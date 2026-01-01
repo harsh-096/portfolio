@@ -25,7 +25,7 @@ const projects = [{
     title: "Stock Prediction",
     description: "Intraday Stock Prediction model.(Still upgrading the data and model accuracy)",
     imageUrl: "/portfolio/prediction.png",
-    tags: ["Python"],
+    tags: ["Python", "AI/ML"],
     projectUrl: "https://github.com/harsh-096/stock-prediction",
     githubUrl: "https://github.com/harsh-096/stock-prediction"
     }];
