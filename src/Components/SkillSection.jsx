@@ -2,18 +2,17 @@ import { cn } from "../libs/utils";
 import { useState } from 'react';
 
 const skills = [
-    { name: "HTML", level: 80, category: "web-dev" },
-    { name: "TailwindCSS", level: 40, category: "web-dev" },
-    { name: "Javascript", level: 55, category: "web-dev" },
-    { name: "React.js", level: 55, category: "web-dev" },
-    { name: "Node.js", level: 30, category: "web-dev" },
-    { name: "MongoDB", level: 30, category: "web-dev" },
+    { name: "HTML", level: 90, category: "web-dev" },
+    { name: "TailwindCSS", level: 55, category: "web-dev" },
+    { name: "Javascript", level: 70, category: "web-dev" },
+    { name: "React.js", level: 65, category: "web-dev" },
     { name: "Python", level: 70, category: "web-dev" },
 
     { name: "Data Analysis & Data Analytics", level: 80, category: "data" },
-    { name: "Powe BI", level: 50, category: "data" },
-    { name: "Tableau", level: 40, category: "data" },
-    { name: "SQL", level: 50, category: "data" },
+    { name: "Powe BI", level: 60, category: "data" },
+    { name: "Tableau", level: 50, category: "data" },
+    { name: "SQL", level: 65, category: "data" },
+    { name: "Excel", level: 65, category: "data" },
 
     { name: "VS Code", level: 80, category: "tools" },
     { name: "Git & Github", level: 50, category: "tools" },
@@ -34,7 +33,7 @@ export const SkillSection = () => {
     );
 
 return <section id="skills" className="py-12 px-4 relative bg-secondary/40">
-         <div className="container mx-auto max-w-5xl">
+         <div className="container mx-auto max-w-5.5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                 My <span className="text-primary">Skills</span>
             </h2>

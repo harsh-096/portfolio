@@ -1,4 +1,5 @@
 import { Code, Container, ChartNoAxesCombined  } from "lucide-react"
+import resumePDF from '../assets/Resume.pdf';
 
 export const AboutSection = () => {
 
@@ -23,7 +24,7 @@ export const AboutSection = () => {
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-btn">Get in Touch</a>
 
-                            <a href="./src/assets/Harsh_Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/20 transition-colors duration-300 card-hover" target="_blank">
+                            <a href={resumePDF} className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/20 transition-colors duration-300 card-hover" target="_blank">
                             Download Resume 
                             </a>
                         </div>
