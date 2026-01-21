@@ -58,7 +58,7 @@ function App() {
          but we CONDITIONALLY render the inner content.
       */}
       <div className="min-h-screen bg-background text-foreground relative">
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
         <StarBackground />
         <CursorGlow />
         
