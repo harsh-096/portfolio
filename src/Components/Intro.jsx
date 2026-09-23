@@ -166,7 +166,9 @@ const Intro = ({ onComplete }) => {
 
     return () => {
       renderer.dispose();
-      if (mountRef.current) mountRef.current.removeChild(renderer.domElement);
+      if (mountRef.current && renderer.domElement.parentNode === mountRef.current) {
+        mountRef.current.removeChild(renderer.domElement);
+      }
     };
   }, [onComplete]);
 
