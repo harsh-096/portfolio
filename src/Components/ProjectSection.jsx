@@ -8,15 +8,15 @@ const projects = [{
     id: 1,
     title: "Portfolio Website",
     description: "A personal portfolio website to showcase my projects and skills.",
-    imageUrl: "/portfolio.png",
+    imageUrl: "/portfolio/portfolio.png",
     tags: ["React", "Tailwind CSS", "JavaScript"],
-    projectUrl: "https://portfolio-two-xi-z7mvrj9ng5.vercel.app/",
+    projectUrl: "https://harsh-096.github.io/portfolio/",
     githubUrl: "https://github.com/harsh-096/portfolio"
     }, {
     id: 2,
     title: "Power BI Dashboards",
     description: "Two Interactive Dashboards to present Super Market & Air Quality Data.",
-    imageUrl: "/dashboard1.png",
+    imageUrl: "/portfolio/dashboard1.png",
     tags: ["Excel", "Power BI", "Data Analytics"],
     projectUrl: "https://github.com/harsh-096/Dashboards_01",
     githubUrl: "https://github.com/harsh-096/Dashboards_01"
@@ -24,7 +24,7 @@ const projects = [{
     id: 3,
     title: "Stock Prediction",
     description: "Intraday Stock Prediction model.(Still upgrading the data and model accuracy)",
-    imageUrl: "/prediction.png",
+    imageUrl: "/portfolio/prediction.png",
     tags: ["Python", "AI/ML"],
     projectUrl: "https://github.com/harsh-096/stock-prediction",
     githubUrl: "https://github.com/harsh-096/stock-prediction"
